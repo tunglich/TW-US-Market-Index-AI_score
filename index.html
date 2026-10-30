@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TW-US Market Index AI Score</title>
+<style>
+  body { font-family: "Segoe UI", "Microsoft JhengHei", sans-serif; background: #0d1117; color: #e6edf3; margin: 0; padding: 2rem; }
+  h1 { font-size: 1.5rem; border-bottom: 1px solid #30363d; padding-bottom: .5rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+  .card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1.25rem; }
+  .card h2 { margin: 0 0 .25rem; font-size: 1.1rem; color: #58a6ff; }
+  .card p { margin: 0 0 .75rem; font-size: .85rem; color: #8b949e; }
+  .card a.btn { display: inline-block; background: #238636; color: #fff; text-decoration: none; padding: .45rem 1rem; border-radius: 6px; font-size: .9rem; margin-right: .5rem; }
+  .card a.btn:hover { background: #2ea043; }
+  .card a.ghost { color: #58a6ff; font-size: .85rem; text-decoration: none; }
+  footer { margin-top: 2rem; font-size: .8rem; color: #8b949e; }
+</style>
+</head>
+<body>
+<h1>📈 TW-US Market Index AI Score</h1>
+<p>四大美股指數每日 AI Score(DES 模型輸出)。Latest 連結永遠指向最新交易日。</p>
+<div class="grid">
+  <div class="card">
+    <h2>Dow Jones 30 (dow30)</h2>
+    <p>道瓊工業指數成分股</p>
+    <a class="btn" href="AI_score_dow30_latest.html">最新圖表</a>
+    <a class="ghost" href="AI_score_dow30_series_latest.csv">CSV 下載</a>
+  </div>
+  <div class="card">
+    <h2>SOX 30 (sox30)</h2>
+    <p>費城半導體指數成分股</p>
+    <a class="btn" href="AI_score_sox30_latest.html">最新圖表</a>
+    <a class="ghost" href="AI_score_sox30_series_latest.csv">CSV 下載</a>
+  </div>
+  <div class="card">
+    <h2>Nasdaq 100 (ndx100)</h2>
+    <p>那斯達克 100 指數成分股</p>
+    <a class="btn" href="AI_score_ndx100_latest.html">最新圖表</a>
+    <a class="ghost" href="AI_score_ndx100_series_latest.csv">CSV 下載</a>
+  </div>
+  <div class="card">
+    <h2>S&amp;P 100 (sp100)</h2>
+    <p>標普 100 指數成分股</p>
+    <a class="btn" href="AI_score_sp100_latest.html">最新圖表</a>
+    <a class="ghost" href="AI_score_sp100_series_latest.csv">CSV 下載</a>
+  </div>
+</div>
+<footer>
+  資料來源:D:\US_stock 每日推論管線(us-daily-inference)|
+  <a class="ghost" href="https://github.com/tunglich/TW-US-Market-Index-AI_score">GitHub Repo</a>
+</footer>
+</body>
+</html>
