@@ -7,6 +7,8 @@ AI score charts for Taiwan and US markets
 
 | 指數 | 最新圖表 | 最新 CSV |
 |------|----------|----------|
+| 台股加權 (TWSE) | [AI_score_twse_latest.jpg](https://tunglich.github.io/TW-US-Market-Index-AI_score/AI_score_twse_latest.jpg) | [series CSV](https://tunglich.github.io/TW-US-Market-Index-AI_score/AI_score_twse_series_latest.csv) |
+| 櫃買 50 (OTC) | [AI_score_otc_latest.jpg](https://tunglich.github.io/TW-US-Market-Index-AI_score/AI_score_otc_latest.jpg) | [series CSV](https://tunglich.github.io/TW-US-Market-Index-AI_score/AI_score_otc_series_latest.csv) |
 | Dow Jones 30 | [AI_score_dow30_latest.html](https://tunglich.github.io/TW-US-Market-Index-AI_score/AI_score_dow30_latest.html) | [series CSV](https://tunglich.github.io/TW-US-Market-Index-AI_score/AI_score_dow30_series_latest.csv) |
 | SOX 30 | [AI_score_sox30_latest.html](https://tunglich.github.io/TW-US-Market-Index-AI_score/AI_score_sox30_latest.html) | [series CSV](https://tunglich.github.io/TW-US-Market-Index-AI_score/AI_score_sox30_series_latest.csv) |
 | Nasdaq 100 | [AI_score_ndx100_latest.html](https://tunglich.github.io/TW-US-Market-Index-AI_score/AI_score_ndx100_latest.html) | [series CSV](https://tunglich.github.io/TW-US-Market-Index-AI_score/AI_score_ndx100_series_latest.csv) |

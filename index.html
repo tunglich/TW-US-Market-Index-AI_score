@@ -19,8 +19,20 @@
 </head>
 <body>
 <h1>📈 TW-US Market Index AI Score</h1>
-<p>四大美股指數每日 AI Score(DES 模型輸出)。Latest 連結永遠指向最新交易日。</p>
+<p>台股加權 / 櫃買與四大美股指數每日 AI Score(DES 模型輸出)。Latest 連結永遠指向最新交易日。</p>
 <div class="grid">
+  <div class="card">
+    <h2>台股加權 (TWSE)</h2>
+    <p>加權股價報酬指數 TWA02 vs AIQuant Score</p>
+    <a class="btn" href="AI_score_twse_latest.jpg">最新圖表</a>
+    <a class="ghost" href="AI_score_twse_series_latest.csv">CSV 下載</a>
+  </div>
+  <div class="card">
+    <h2>櫃買 50 (OTC)</h2>
+    <p>櫃買 50 指數 TWC50 vs AIQuant Score</p>
+    <a class="btn" href="AI_score_otc_latest.jpg">最新圖表</a>
+    <a class="ghost" href="AI_score_otc_series_latest.csv">CSV 下載</a>
+  </div>
   <div class="card">
     <h2>Dow Jones 30 (dow30)</h2>
     <p>道瓊工業指數成分股</p>
@@ -47,7 +59,7 @@
   </div>
 </div>
 <footer>
-  資料來源:D:\US_stock 每日推論管線(us-daily-inference)|
+  資料來源:台股 D:\DataRetrieval 每日管線(AIScore.py)、美股 D:\US_stock 每日推論管線(us-daily-inference)|
   <a class="ghost" href="https://github.com/tunglich/TW-US-Market-Index-AI_score">GitHub Repo</a>
 </footer>
 </body>
